@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "techblocks:blocks/platinume_ore",
+    "up": "techblocks:blocks/platinume_ore",
+    "north": "techblocks:blocks/platinume_ore",
+    "east": "techblocks:blocks/platinume_ore",
+    "south": "techblocks:blocks/platinume_ore",
+    "west": "techblocks:blocks/platinume_ore",
+    "particle": "techblocks:blocks/platinume_ore"
+  }
+}

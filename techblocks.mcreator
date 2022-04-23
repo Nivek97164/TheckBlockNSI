@@ -1,0 +1,106 @@
+{
+  "mod_elements": [
+    {
+      "name": "TechBlocksplatiniumeOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tech_blocksplatiniume_ore"
+    },
+    {
+      "name": "Platineingote",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platineingote"
+    },
+    {
+      "name": "Platinumingote",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinumingote"
+    },
+    {
+      "name": "RubisBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubis_block"
+    },
+    {
+      "name": "RubisIngote",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubis_ingote"
+    },
+    {
+      "name": "Biomecorronpue",
+      "type": "biome",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biomecorronpue"
+    },
+    {
+      "name": "Dimensioncorrupu",
+      "type": "dimension",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimensioncorrupu",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Cleedimensioncorrompue01",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cleedimensioncorrompue_01"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.techblocks.rubis_ingote": "Rubis",
+      "item.techblocks.dimensioncorrupu": "Clée dimension corrompue 0.1",
+      "biome.techblocks.biomecorronpue": "biome corrompu",
+      "item.techblocks.platineingote": "Platine Ingot",
+      "block.techblocks.rubis_block": "Rubis Block",
+      "block.techblocks.tech_blocksplatiniume_ore": "platiniume Ore"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "techblocks",
+    "modName": "TechBlocks",
+    "version": "1.0.0",
+    "author": "volfg, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.techblocks",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

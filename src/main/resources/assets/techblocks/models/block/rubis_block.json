@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "techblocks:blocks/rubis_block",
+    "up": "techblocks:blocks/rubis_block",
+    "north": "techblocks:blocks/rubis_block",
+    "east": "techblocks:blocks/rubis_block",
+    "south": "techblocks:blocks/rubis_block",
+    "west": "techblocks:blocks/rubis_block",
+    "particle": "techblocks:blocks/rubis_block"
+  }
+}

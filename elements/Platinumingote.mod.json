@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 5.0,
+    "cookingTime": 99,
+    "recipeRetstackSize": 1,
+    "group": "smelting_platine_ingote",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:TechBlocksplatiniumeOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Platineingote"
+    },
+    "name": "platinumingote",
+    "namespace": "mod"
+  }
+}

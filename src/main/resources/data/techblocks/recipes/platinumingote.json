@@ -1,0 +1,12 @@
+{
+  "group": "smelting_platine_ingote",
+  "type": "minecraft:smelting",
+  "experience": 5,
+  "cookingtime": 99,
+  "ingredient": {
+    "item": "techblocks:tech_blocksplatiniume_ore"
+  },
+  "result": {
+    "item": "techblocks:platineingote"
+  }
+}
