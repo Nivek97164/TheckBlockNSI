@@ -20,6 +20,7 @@ import net.mcreator.techblocks.item.DimensioncorrupuItem;
 import net.mcreator.techblocks.item.CoeurDeMachineNV1Item;
 import net.mcreator.techblocks.item.CoeurCorrupuItem;
 import net.mcreator.techblocks.item.ChrysocolleingoteItem;
+import net.mcreator.techblocks.item.ArmuredechrysocolleItem;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -37,6 +38,10 @@ public class TechblocksModItems {
 	public static final Item COEUR_CORRUPU = register(new CoeurCorrupuItem());
 	public static final Item BLOCDE_CHRYSOCOLLE = register(TechblocksModBlocks.BLOCDE_CHRYSOCOLLE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item EPEEEEN_CHRYSOCOLE = register(new EpeeeenChrysocoleItem());
+	public static final Item ARMUREDECHRYSOCOLLE_HELMET = register(new ArmuredechrysocolleItem.Helmet());
+	public static final Item ARMUREDECHRYSOCOLLE_CHESTPLATE = register(new ArmuredechrysocolleItem.Chestplate());
+	public static final Item ARMUREDECHRYSOCOLLE_LEGGINGS = register(new ArmuredechrysocolleItem.Leggings());
+	public static final Item ARMUREDECHRYSOCOLLE_BOOTS = register(new ArmuredechrysocolleItem.Boots());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
