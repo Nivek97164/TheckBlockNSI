@@ -152,6 +152,38 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "ChrysocolleElmet",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chrysocolle_elmet"
+    },
+    {
+      "name": "ChrysocolleChestplate",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chrysocolle_chestplate"
+    },
+    {
+      "name": "ChrysocollePante",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chrysocolle_pante"
+    },
+    {
+      "name": "ChrysocolleBoots",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chrysocolle_boots"
     }
   ],
   "variable_elements": [],
@@ -159,8 +191,8 @@
   "language_map": {
     "en_us": {
       "item.techblocks.coeur_corrupu": "Coeur corrompu",
-      "item.techblocks.coeur_de_machine_nv_1": "Coeur De Machine NV 1",
       "item.techblocks.dimensioncorrupu": "Clée dimension corrompue 0.1",
+      "item.techblocks.coeur_de_machine_nv_1": "Coeur De Machine NV 1",
       "item.techblocks.armuredechrysocolle_leggings": "Jambières de chrysocolle",
       "itemGroup.tabtheck_block": "Theck Block",
       "item.techblocks.rubis_ingote": "Rubis",

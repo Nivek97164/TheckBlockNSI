@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "techblocks:chrysocolleingote"
+    },
+    "1": {
+      "item": "techblocks:chrysocolleingote"
+    },
+    "2": {
+      "item": "techblocks:chrysocolleingote"
+    },
+    "3": {
+      "item": "techblocks:chrysocolleingote"
+    },
+    "5": {
+      "item": "techblocks:chrysocolleingote"
+    },
+    "6": {
+      "item": "techblocks:chrysocolleingote"
+    },
+    "8": {
+      "item": "techblocks:chrysocolleingote"
+    }
+  },
+  "result": {
+    "item": "techblocks:armuredechrysocolle_leggings",
+    "count": 1
+  }
+}
