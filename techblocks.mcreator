@@ -137,8 +137,8 @@
   "language_map": {
     "en_us": {
       "item.techblocks.coeur_corrupu": "Coeur corrompu",
-      "item.techblocks.dimensioncorrupu": "Clée dimension corrompue 0.1",
       "item.techblocks.coeur_de_machine_nv_1": "Coeur De Machine NV 1",
+      "item.techblocks.dimensioncorrupu": "Clée dimension corrompue 0.1",
       "itemGroup.tabtheck_block": "Theck Block",
       "item.techblocks.rubis_ingote": "Rubis",
       "biome.techblocks.biomecorronpue": "biome corrompu",
