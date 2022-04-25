@@ -82,6 +82,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "theck_block"
+    },
+    {
+      "name": "Chrysocolleingote",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chrysocolleingote"
+    },
+    {
+      "name": "CoeurCorrupu",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coeur_corrupu"
+    },
+    {
+      "name": "Craftcoeurcorrompu",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftcoeurcorrompu"
     }
   ],
   "variable_elements": [],
@@ -89,11 +113,13 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabtheck_block": "Theck Block",
+      "item.techblocks.coeur_corrupu": "Coeur corrompu",
       "item.techblocks.rubis_ingote": "Rubis",
       "item.techblocks.dimensioncorrupu": "Clée dimension corrompue 0.1",
       "item.techblocks.coeur_de_machine_nv_1": "Coeur De Machine NV 1",
       "biome.techblocks.biomecorronpue": "biome corrompu",
       "item.techblocks.platineingote": "Platine Ingot",
+      "item.techblocks.chrysocolleingote": "Chrysocolle ingote",
       "block.techblocks.rubis_block": "Rubis Block",
       "block.techblocks.tech_blocksplatiniume_ore": "platiniume Ore"
     }

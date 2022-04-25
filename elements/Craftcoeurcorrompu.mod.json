@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
+        "value": "Items.CHORUS_FRUIT_POPPED"
+      },
+      {
+        "value": "Items.DRAGON_BREATH"
+      },
+      {
+        "value": "Items.CHORUS_FRUIT_POPPED"
+      },
+      {
+        "value": "Items.CHORUS_FRUIT"
+      },
+      {
+        "value": "CUSTOM:RubisIngote"
+      },
+      {
+        "value": "Items.CHORUS_FRUIT"
+      },
+      {
         "value": ""
       },
       {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": "CUSTOM:CoeurCorrupu"
-      },
-      {
-        "value": "Items.GOLD_INGOT"
-      },
-      {
-        "value": "Items.GOLD_INGOT"
-      },
-      {
-        "value": "Items.GOLD_INGOT"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.GOLD_INGOT"
+        "value": "Items.AMETHYST_SHARD"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Dimensioncorrupu"
+      "value": "CUSTOM:CoeurCorrupu"
     },
-    "name": "cleedimensioncorrompue_01",
+    "name": "craftcoeurcorrompu",
     "namespace": "mod"
   }
 }
