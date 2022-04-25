@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.techblocks.item.RubisIngoteItem;
 import net.mcreator.techblocks.item.PlatineingoteItem;
+import net.mcreator.techblocks.item.EpeeeenChrysocoleItem;
 import net.mcreator.techblocks.item.DimensioncorrupuItem;
 import net.mcreator.techblocks.item.CoeurDeMachineNV1Item;
 import net.mcreator.techblocks.item.CoeurCorrupuItem;
@@ -34,6 +35,8 @@ public class TechblocksModItems {
 	public static final Item COEUR_DE_MACHINE_NV_1 = register(new CoeurDeMachineNV1Item());
 	public static final Item CHRYSOCOLLEINGOTE = register(new ChrysocolleingoteItem());
 	public static final Item COEUR_CORRUPU = register(new CoeurCorrupuItem());
+	public static final Item BLOCDE_CHRYSOCOLLE = register(TechblocksModBlocks.BLOCDE_CHRYSOCOLLE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item EPEEEEN_CHRYSOCOLE = register(new EpeeeenChrysocoleItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

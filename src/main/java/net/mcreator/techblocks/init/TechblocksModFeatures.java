@@ -18,6 +18,7 @@ import net.minecraft.core.Registry;
 
 import net.mcreator.techblocks.world.features.ores.TechBlocksplatiniumeOreFeature;
 import net.mcreator.techblocks.world.features.ores.RubisBlockFeature;
+import net.mcreator.techblocks.world.features.ores.BlocdeChrysocolleFeature;
 
 import java.util.Set;
 import java.util.Map;
@@ -31,6 +32,8 @@ public class TechblocksModFeatures {
 				TechBlocksplatiniumeOreFeature.GENERATE_BIOMES, TechBlocksplatiniumeOreFeature.CONFIGURED_FEATURE));
 		REGISTRY.put(RubisBlockFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, RubisBlockFeature.GENERATE_BIOMES,
 				RubisBlockFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(BlocdeChrysocolleFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
+				BlocdeChrysocolleFeature.GENERATE_BIOMES, BlocdeChrysocolleFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent

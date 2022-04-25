@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "techblocks:blocks/block_de_chrysocolle",
+    "up": "techblocks:blocks/block_de_chrysocolle",
+    "north": "techblocks:blocks/block_de_chrysocolle",
+    "east": "techblocks:blocks/block_de_chrysocolle",
+    "south": "techblocks:blocks/block_de_chrysocolle",
+    "west": "techblocks:blocks/block_de_chrysocolle",
+    "particle": "techblocks:blocks/block_de_chrysocolle"
+  }
+}

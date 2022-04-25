@@ -106,20 +106,46 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "craftcoeurcorrompu"
+    },
+    {
+      "name": "BlocdeChrysocolle",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocde_chrysocolle"
+    },
+    {
+      "name": "Chrysocolleingoterecette",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chrysocolleingoterecette"
+    },
+    {
+      "name": "EpeeeenChrysocole",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epeeeen_chrysocole"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabtheck_block": "Theck Block",
       "item.techblocks.coeur_corrupu": "Coeur corrompu",
-      "item.techblocks.rubis_ingote": "Rubis",
       "item.techblocks.dimensioncorrupu": "Clée dimension corrompue 0.1",
       "item.techblocks.coeur_de_machine_nv_1": "Coeur De Machine NV 1",
+      "itemGroup.tabtheck_block": "Theck Block",
+      "item.techblocks.rubis_ingote": "Rubis",
       "biome.techblocks.biomecorronpue": "biome corrompu",
       "item.techblocks.platineingote": "Platine Ingot",
+      "item.techblocks.epeeeen_chrysocole": "Epée en Chrysocole",
       "item.techblocks.chrysocolleingote": "Chrysocolle ingote",
+      "block.techblocks.blocde_chrysocolle": "Bloc Chrysocolle",
       "block.techblocks.rubis_block": "Rubis Block",
       "block.techblocks.tech_blocksplatiniume_ore": "platiniume Ore"
     }
