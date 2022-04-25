@@ -13,13 +13,17 @@
     "toolType": "Sword",
     "harvestLevel": 1,
     "efficiency": 4.0,
-    "attackSpeed": 1.0,
-    "enchantability": 17,
-    "damageVsEntity": 9.0,
-    "usageCount": 2325,
+    "attackSpeed": 1.6,
+    "enchantability": 13,
+    "damageVsEntity": 7.0,
+    "usageCount": 1761,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:Chrysocolleingote"
+      }
+    ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
