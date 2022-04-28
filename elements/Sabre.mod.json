@@ -13,7 +13,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Chrysocolleingote"
+        "value": "Blocks.AMETHYST_CLUSTER"
       },
       {
         "value": ""
@@ -22,7 +22,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Chrysocolleingote"
+        "value": "Items.NETHER_STAR"
       },
       {
         "value": ""
@@ -31,16 +31,16 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:BatonDeFer"
+        "value": "CUSTOM:BasDeSabre"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:EpeeeenChrysocole"
+      "value": "CUSTOM:SabreLaser"
     },
-    "name": "epeeen_chrysocole_recette",
+    "name": "sabre",
     "namespace": "mod"
   }
 }

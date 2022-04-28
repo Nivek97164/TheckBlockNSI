@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "techblocks:items/holographic-lightsaber-on-planetminecraft-com"
+  }
+}

@@ -13,22 +13,22 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Chrysocolleingote"
+        "value": "CUSTOM:BatonDeFer"
       },
       {
-        "value": ""
+        "value": "CUSTOM:BatonDeFer"
       },
       {
-        "value": ""
+        "value": "CUSTOM:BatonDeFer"
       },
       {
-        "value": "CUSTOM:Chrysocolleingote"
+        "value": "CUSTOM:RubisIngote"
       },
       {
-        "value": ""
+        "value": "CUSTOM:BatonDeFer"
       },
       {
-        "value": ""
+        "value": "CUSTOM:BatonDeFer"
       },
       {
         "value": "CUSTOM:BatonDeFer"
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:EpeeeenChrysocole"
+      "value": "CUSTOM:BasDeSabre"
     },
-    "name": "epeeen_chrysocole_recette",
+    "name": "manche",
     "namespace": "mod"
   }
 }

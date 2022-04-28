@@ -184,28 +184,269 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "chrysocolle_boots"
+    },
+    {
+      "name": "AiraignerInfecter",
+      "type": "livingentity",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "airaigner_infecter"
+    },
+    {
+      "name": "Ame",
+      "type": "livingentity",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ame"
+    },
+    {
+      "name": "AmeApparition",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ame_apparition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GhastCorrompu",
+      "type": "livingentity",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghast_corrompu"
+    },
+    {
+      "name": "CreeperMort",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creeper_mort",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CreeperInfecter",
+      "type": "livingentity",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creeper_infecter"
+    },
+    {
+      "name": "BatonDeFer",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baton_de_fer"
+    },
+    {
+      "name": "BatonFer",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baton_fer"
+    },
+    {
+      "name": "SabreLaserDansLaMain",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sabre_laser_dans_la_main",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Éclaire",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eclaire",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SabreLaser",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sabre_laser"
+    },
+    {
+      "name": "Sabre",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sabre"
+    },
+    {
+      "name": "Laser",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser"
+    },
+    {
+      "name": "PistoletLaser",
+      "type": "rangeditem",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistolet_laser"
+    },
+    {
+      "name": "BasDeSabre",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bas_de_sabre"
+    },
+    {
+      "name": "Manche",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manche"
+    },
+    {
+      "name": "AiraignerInfecterToucher",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "airaigner_infecter_toucher",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmeToucher",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ame_toucher",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.techblocks.coeur_corrupu": "Coeur corrompu",
-      "item.techblocks.dimensioncorrupu": "Clée dimension corrompue 0.1",
       "item.techblocks.coeur_de_machine_nv_1": "Coeur De Machine NV 1",
-      "item.techblocks.armuredechrysocolle_leggings": "Jambières de chrysocolle",
-      "itemGroup.tabtheck_block": "Theck Block",
-      "item.techblocks.rubis_ingote": "Rubis",
-      "item.techblocks.armuredechrysocolle_chestplate": "Plastron de chrysocolle",
+      "entity.techblocks.ghast_corrompu": "Ghast Corrompu",
+      "entity.techblocks.creeper_infecter": "Creeper Infecter",
+      "item.techblocks.creeper_infecter_spawn_egg": "Creeper Infecter Spawn Egg",
       "biome.techblocks.biomecorronpue": "biome corrompu",
-      "item.techblocks.platineingote": "Platine Ingot",
+      "item.techblocks.bas_de_sabre": "Bas De Sabre",
       "item.techblocks.epeeeen_chrysocole": "Epée en Chrysocolle",
       "item.techblocks.chrysocolleingote": "Chrysocolle ingote",
       "block.techblocks.blocde_chrysocolle": "Bloc Chrysocolle",
       "item.techblocks.armuredechrysocolle_helmet": "Casque en chrysocolle",
       "item.techblocks.armuredechrysocolle_boots": "Bottes en chrysocolle",
+      "block.techblocks.tech_blocksplatiniume_ore": "platiniume Ore",
+      "item.techblocks.pistolet_laser": "Pistolet Laser",
+      "item.techblocks.coeur_corrupu": "Coeur corrompu",
+      "item.techblocks.ame_spawn_egg": "Ame Spawn Egg",
+      "item.techblocks.dimensioncorrupu": "Clée dimension corrompue 0.1",
+      "item.techblocks.baton_de_fer": "Baton De Fer",
+      "entity.techblocks.airaigner_infecter": "Airaigner Infecter",
+      "entity.techblocks.ame": "Ame",
+      "item.techblocks.armuredechrysocolle_leggings": "Jambières de chrysocolle",
+      "itemGroup.tabtheck_block": "Theck Block",
+      "item.techblocks.ghast_corrompu_spawn_egg": "Ghast Corrompu Spawn Egg",
+      "item.techblocks.rubis_ingote": "Rubis",
+      "item.techblocks.armuredechrysocolle_chestplate": "Plastron de chrysocolle",
+      "item.techblocks.airaigner_infecter_spawn_egg": "Airaigner Infecter Spawn Egg",
+      "item.techblocks.sabre_laser": "Sabre Laser",
+      "item.techblocks.platineingote": "Platine Ingot",
       "block.techblocks.rubis_block": "Rubis Block",
-      "block.techblocks.tech_blocksplatiniume_ore": "platiniume Ore"
+      "item.techblocks.laser": "Laser"
     }
   },
   "foldersRoot": {

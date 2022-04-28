@@ -13,34 +13,34 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Chrysocolleingote"
+        "value": ""
+      },
+      {
+        "value": "Items.IRON_INGOT"
       },
       {
         "value": ""
       },
       {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Chrysocolleingote"
+        "value": "Items.IRON_INGOT"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.IRON_INGOT"
       },
       {
-        "value": "CUSTOM:BatonDeFer"
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:EpeeeenChrysocole"
+      "value": "CUSTOM:BatonDeFer"
     },
-    "name": "epeeen_chrysocole_recette",
+    "name": "baton_fer",
     "namespace": "mod"
   }
 }

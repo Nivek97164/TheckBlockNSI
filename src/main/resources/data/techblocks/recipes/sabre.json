@@ -7,17 +7,17 @@
   ],
   "key": {
     "0": {
-      "item": "techblocks:chrysocolleingote"
+      "item": "minecraft:amethyst_cluster"
     },
     "1": {
-      "item": "techblocks:chrysocolleingote"
+      "item": "minecraft:nether_star"
     },
     "2": {
-      "item": "techblocks:baton_de_fer"
+      "item": "techblocks:bas_de_sabre"
     }
   },
   "result": {
-    "item": "techblocks:epeeeen_chrysocole",
+    "item": "techblocks:sabre_laser",
     "count": 1
   }
 }
