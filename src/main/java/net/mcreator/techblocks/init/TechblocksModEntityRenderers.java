@@ -26,6 +26,5 @@ public class TechblocksModEntityRenderers {
 		event.registerEntityRenderer(TechblocksModEntities.GHAST_CORROMPU, GhastCorrompuRenderer::new);
 		event.registerEntityRenderer(TechblocksModEntities.GHAST_CORROMPU_PROJECTILE, ThrownItemRenderer::new);
 		event.registerEntityRenderer(TechblocksModEntities.CREEPER_INFECTER, CreeperInfecterRenderer::new);
-		event.registerEntityRenderer(TechblocksModEntities.PISTOLET_LASER, ThrownItemRenderer::new);
 	}
 }

@@ -9,15 +9,15 @@
     "enableLeggings": true,
     "textureLeggings": "texture_armure_chrysocolle_leggings",
     "enableBoots": true,
-    "textureBoots": "armue_en_chrysocole_boots",
+    "textureBoots": "armue_en_chrysocole_leggings",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:TheckBlock"
     },
-    "armorTextureFile": "armue_en_chrysocole",
-    "helmetName": "Casque en chrysocolle",
-    "bodyName": "Plastron de chrysocolle",
-    "leggingsName": "Jambières de chrysocolle",
-    "bootsName": "Bottes en chrysocolle",
+    "armorTextureFile": "texture_armure_chrysocolle_",
+    "helmetName": "Casque en Chrysocolle",
+    "bodyName": "Plastron de Chrysocolle",
+    "leggingsName": "Jambières de Chrysocolle",
+    "bootsName": "Bottes en Chrysocolle",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],
@@ -42,13 +42,13 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
-    "maxDamage": 34,
+    "maxDamage": 35,
     "damageValueHelmet": 4,
     "damageValueBody": 9,
     "damageValueLeggings": 7,
     "damageValueBoots": 4,
     "enchantability": 13,
-    "toughness": 1.0,
+    "toughness": 2.5,
     "knockbackResistance": 0.0,
     "equipSound": {
       "value": "item.armor.equip_diamond"

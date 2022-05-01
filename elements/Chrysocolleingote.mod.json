@@ -8,7 +8,7 @@
     "name": "Chrysocolle ingote",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:TheckBlock"
     },
     "stackSize": 64,
     "enchantability": 0,

@@ -8,7 +8,7 @@
     "name": "Coeur De Machine NV 1",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "REDSTONE"
+      "value": "CUSTOM:TheckBlock"
     },
     "stackSize": 64,
     "enchantability": 0,

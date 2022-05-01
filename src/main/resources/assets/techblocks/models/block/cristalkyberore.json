@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "techblocks:blocks/cristal_kyber_ore_texture",
+    "up": "techblocks:blocks/cristal_kyber_ore_texture",
+    "north": "techblocks:blocks/cristal_kyber_ore_texture",
+    "east": "techblocks:blocks/cristal_kyber_ore_texture",
+    "south": "techblocks:blocks/cristal_kyber_ore_texture",
+    "west": "techblocks:blocks/cristal_kyber_ore_texture",
+    "particle": "techblocks:blocks/cristal_kyber_ore_texture"
+  }
+}

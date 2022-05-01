@@ -6,15 +6,16 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
+
+import net.mcreator.techblocks.init.TechblocksModTabs;
 
 import java.util.List;
 
 public class CoeurDeMachineNV1Item extends Item {
 	public CoeurDeMachineNV1Item() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_REDSTONE).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(TechblocksModTabs.TAB_THECK_BLOCK).stacksTo(64).rarity(Rarity.COMMON));
 		setRegistryName("coeur_de_machine_nv_1");
 	}
 

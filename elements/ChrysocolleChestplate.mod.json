@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Armuredechrysocolle.body"
+      "value": "CUSTOM:ArmureenChrysocolle.body"
     },
     "name": "chrysocolle_chestplate",
     "namespace": "mod"

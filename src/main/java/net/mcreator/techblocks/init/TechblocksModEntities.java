@@ -14,7 +14,6 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
-import net.mcreator.techblocks.entity.PistoletLaserEntity;
 import net.mcreator.techblocks.entity.GhastCorrompuEntityProjectile;
 import net.mcreator.techblocks.entity.GhastCorrompuEntity;
 import net.mcreator.techblocks.entity.CreeperInfecterEntity;
@@ -48,9 +47,6 @@ public class TechblocksModEntities {
 	public static final EntityType<CreeperInfecterEntity> CREEPER_INFECTER = register("creeper_infecter",
 			EntityType.Builder.<CreeperInfecterEntity>of(CreeperInfecterEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CreeperInfecterEntity::new).sized(0.6f, 1.7f));
-	public static final EntityType<PistoletLaserEntity> PISTOLET_LASER = register("entitybulletpistolet_laser",
-			EntityType.Builder.<PistoletLaserEntity>of(PistoletLaserEntity::new, MobCategory.MISC).setCustomClientFactory(PistoletLaserEntity::new)
-					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		EntityType<T> entityType = (EntityType<T>) entityTypeBuilder.build(registryname).setRegistryName(registryname);

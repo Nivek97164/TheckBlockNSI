@@ -5,7 +5,6 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attribute;
@@ -16,6 +15,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.techblocks.procedures.ÉclaireProcedure;
 import net.mcreator.techblocks.procedures.SabreLaserDansLaMainProcedure;
+import net.mcreator.techblocks.init.TechblocksModTabs;
 
 import java.util.List;
 
@@ -24,7 +24,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class SabreLaserItem extends Item {
 	public SabreLaserItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(100).fireResistant());
+		super(new Item.Properties().tab(TechblocksModTabs.TAB_THECK_BLOCK).durability(100).fireResistant());
 		setRegistryName("sabre_laser");
 	}
 

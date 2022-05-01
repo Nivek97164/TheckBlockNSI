@@ -6,7 +6,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -14,14 +13,15 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 
+import net.mcreator.techblocks.init.TechblocksModTabs;
 import net.mcreator.techblocks.init.TechblocksModItems;
 
-public abstract class ArmuredechrysocolleItem extends ArmorItem {
-	public ArmuredechrysocolleItem(EquipmentSlot slot, Item.Properties properties) {
+public abstract class ArmureenChrysocolleItem extends ArmorItem {
+	public ArmureenChrysocolleItem(EquipmentSlot slot, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 34;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 35;
 			}
 
 			@Override
@@ -46,12 +46,12 @@ public abstract class ArmuredechrysocolleItem extends ArmorItem {
 
 			@Override
 			public String getName() {
-				return "armuredechrysocolle";
+				return "armureen_chrysocolle";
 			}
 
 			@Override
 			public float getToughness() {
-				return 1f;
+				return 2.5f;
 			}
 
 			@Override
@@ -61,51 +61,51 @@ public abstract class ArmuredechrysocolleItem extends ArmorItem {
 		}, slot, properties);
 	}
 
-	public static class Helmet extends ArmuredechrysocolleItem {
+	public static class Helmet extends ArmureenChrysocolleItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
-			setRegistryName("armuredechrysocolle_helmet");
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(TechblocksModTabs.TAB_THECK_BLOCK));
+			setRegistryName("armureen_chrysocolle_helmet");
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "techblocks:textures/models/armor/armue_en_chrysocole_layer_1.png";
+			return "techblocks:textures/models/armor/texture_armure_chrysocolle__layer_1.png";
 		}
 	}
 
-	public static class Chestplate extends ArmuredechrysocolleItem {
+	public static class Chestplate extends ArmureenChrysocolleItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
-			setRegistryName("armuredechrysocolle_chestplate");
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(TechblocksModTabs.TAB_THECK_BLOCK));
+			setRegistryName("armureen_chrysocolle_chestplate");
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "techblocks:textures/models/armor/armue_en_chrysocole_layer_1.png";
+			return "techblocks:textures/models/armor/texture_armure_chrysocolle__layer_1.png";
 		}
 	}
 
-	public static class Leggings extends ArmuredechrysocolleItem {
+	public static class Leggings extends ArmureenChrysocolleItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
-			setRegistryName("armuredechrysocolle_leggings");
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(TechblocksModTabs.TAB_THECK_BLOCK));
+			setRegistryName("armureen_chrysocolle_leggings");
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "techblocks:textures/models/armor/armue_en_chrysocole_layer_2.png";
+			return "techblocks:textures/models/armor/texture_armure_chrysocolle__layer_2.png";
 		}
 	}
 
-	public static class Boots extends ArmuredechrysocolleItem {
+	public static class Boots extends ArmureenChrysocolleItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
-			setRegistryName("armuredechrysocolle_boots");
+			super(EquipmentSlot.FEET, new Item.Properties().tab(TechblocksModTabs.TAB_THECK_BLOCK));
+			setRegistryName("armureen_chrysocolle_boots");
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "techblocks:textures/models/armor/armue_en_chrysocole_layer_1.png";
+			return "techblocks:textures/models/armor/texture_armure_chrysocolle__layer_1.png";
 		}
 	}
 }

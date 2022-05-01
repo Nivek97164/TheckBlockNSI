@@ -29,7 +29,7 @@
       "value": "Blocks.CRYING_OBSIDIAN"
     },
     "portalParticles": {
-      "value": "CRIT_MAGIC"
+      "value": "CUSTOM:Particulecorrumpu"
     },
     "portalLuminance": 3,
     "portalSound": {
@@ -37,10 +37,10 @@
     },
     "igniterName": "Clée dimension corrompue 0.1",
     "igniterTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:TheckBlock"
     },
     "texture": "clee_dimension_corrompue_01",
-    "portalTexture": "portial_corrompue",
+    "portalTexture": "corrupu_portail",
     "enablePortal": true
   }
 }

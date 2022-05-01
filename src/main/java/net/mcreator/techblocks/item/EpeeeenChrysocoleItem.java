@@ -6,8 +6,8 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 
+import net.mcreator.techblocks.init.TechblocksModTabs;
 import net.mcreator.techblocks.init.TechblocksModItems;
 
 public class EpeeeenChrysocoleItem extends SwordItem {
@@ -36,7 +36,7 @@ public class EpeeeenChrysocoleItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(TechblocksModItems.CHRYSOCOLLEINGOTE));
 			}
-		}, 3, -2.4f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, -2.4f, new Item.Properties().tab(TechblocksModTabs.TAB_THECK_BLOCK));
 		setRegistryName("epeeeen_chrysocole");
 	}
 }

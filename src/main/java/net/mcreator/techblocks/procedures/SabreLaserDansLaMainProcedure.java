@@ -13,7 +13,5 @@ public class SabreLaserDansLaMainProcedure {
 			_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 20, 1));
 		if (entity instanceof LivingEntity _entity)
 			_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 0));
-		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 20, 0));
 	}
 }

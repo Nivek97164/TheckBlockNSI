@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "techblocks:blocks/portial_corrompue",
-    "portal": "techblocks:blocks/portial_corrompue"
+    "particle": "techblocks:blocks/corrupu_portail",
+    "portal": "techblocks:blocks/corrupu_portail"
   },
   "elements": [
     {

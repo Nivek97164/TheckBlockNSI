@@ -7,10 +7,10 @@ import net.minecraft.world.item.Item;
 
 import net.mcreator.techblocks.init.TechblocksModTabs;
 
-public class CoeurCorrupuItem extends Item {
-	public CoeurCorrupuItem() {
+public class CristalkyberItem extends Item {
+	public CristalkyberItem() {
 		super(new Item.Properties().tab(TechblocksModTabs.TAB_THECK_BLOCK).stacksTo(64).rarity(Rarity.COMMON));
-		setRegistryName("coeur_corrupu");
+		setRegistryName("cristalkyber");
 	}
 
 	@Override

@@ -2,12 +2,12 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "block_de_chrysocolle",
-    "textureTop": "block_de_chrysocolle",
-    "textureLeft": "block_de_chrysocolle",
-    "textureFront": "block_de_chrysocolle",
-    "textureRight": "block_de_chrysocolle",
-    "textureBack": "block_de_chrysocolle",
+    "texture": "cristal_kyber_ore_texture",
+    "textureTop": "cristal_kyber_ore_texture",
+    "textureLeft": "cristal_kyber_ore_texture",
+    "textureFront": "cristal_kyber_ore_texture",
+    "textureRight": "cristal_kyber_ore_texture",
+    "textureBack": "cristal_kyber_ore_texture",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Bloc Chrysocolle",
+    "name": "Cristalkyberore",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -43,7 +43,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Cristalkyber"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -99,7 +99,7 @@
     "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "CUSTOM:Particulecorrumpu"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
@@ -122,20 +122,16 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "CUSTOM:Dimensioncorrupu"
+      "Surface"
     ],
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:Biomecorronpue"
-      }
-    ],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
     "frequencyPerChunks": 10,
-    "frequencyOnChunk": 7,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64
   }

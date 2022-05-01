@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "batonfer",
+    "texture": "cristal_kyber",
     "customModelName": "Normal",
-    "name": "Baton De Fer",
+    "name": "Cristal kyber",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:TheckBlock"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -24,9 +24,7 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "Baton former appartir de plusieur lingo de fer"
-    ],
+    "specialInfo": [],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

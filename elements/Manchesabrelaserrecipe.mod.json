@@ -10,10 +10,7 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "Items.IRON_INGOT"
       },
       {
         "value": "Items.IRON_INGOT"
@@ -25,22 +22,25 @@
         "value": "Items.IRON_INGOT"
       },
       {
+        "value": "Blocks.STONE_BUTTON"
+      },
+      {
         "value": ""
       },
       {
         "value": "Items.IRON_INGOT"
       },
       {
-        "value": ""
+        "value": "Items.IRON_INGOT"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BatonDeFer"
+      "value": "CUSTOM:BasDeSabre"
     },
-    "name": "baton_fer",
+    "name": "manchesabrelaserrecipe",
     "namespace": "mod"
   }
 }

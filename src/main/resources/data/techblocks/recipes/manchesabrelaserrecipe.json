@@ -1,23 +1,32 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "  2",
-    " 4 ",
-    "6  "
+    "01",
+    "23",
+    "45"
   ],
   "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
     "2": {
       "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "minecraft:stone_button"
     },
     "4": {
       "item": "minecraft:iron_ingot"
     },
-    "6": {
+    "5": {
       "item": "minecraft:iron_ingot"
     }
   },
   "result": {
-    "item": "techblocks:baton_de_fer",
+    "item": "techblocks:bas_de_sabre",
     "count": 1
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "techblocks:items/batonfer"
+    "layer0": "techblocks:items/cristal_kyber"
   }
 }

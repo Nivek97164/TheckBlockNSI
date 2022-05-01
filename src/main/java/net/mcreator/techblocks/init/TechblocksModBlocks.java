@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.techblocks.block.TechBlocksplatiniumeOreBlock;
 import net.mcreator.techblocks.block.RubisBlockBlock;
 import net.mcreator.techblocks.block.DimensioncorrupuPortalBlock;
+import net.mcreator.techblocks.block.CristalkyberoreBlock;
 import net.mcreator.techblocks.block.BlocdeChrysocolleBlock;
 
 import java.util.List;
@@ -25,6 +26,7 @@ public class TechblocksModBlocks {
 	public static final Block RUBIS_BLOCK = register(new RubisBlockBlock());
 	public static final Block DIMENSIONCORRUPU_PORTAL = register(new DimensioncorrupuPortalBlock());
 	public static final Block BLOCDE_CHRYSOCOLLE = register(new BlocdeChrysocolleBlock());
+	public static final Block CRISTALKYBERORE = register(new CristalkyberoreBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
