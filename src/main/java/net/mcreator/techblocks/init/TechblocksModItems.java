@@ -62,6 +62,9 @@ public class TechblocksModItems {
 	public static final Item ARMUREEN_CHRYSOCOLLE_BOOTS = register(new ArmureenChrysocolleItem.Boots());
 	public static final Item CRISTALKYBERORE = register(TechblocksModBlocks.CRISTALKYBERORE, TechblocksModTabs.TAB_THECK_BLOCK);
 	public static final Item CRISTALKYBER = register(new CristalkyberItem());
+	public static final Item GOLEM = register(
+			new SpawnEggItem(TechblocksModEntities.GOLEM, -65281, -6684928, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
+					.setRegistryName("golem_spawn_egg"));
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

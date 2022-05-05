@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import net.mcreator.techblocks.client.renderer.GolemRenderer;
 import net.mcreator.techblocks.client.renderer.GhastCorrompuRenderer;
 import net.mcreator.techblocks.client.renderer.CreeperInfecterRenderer;
 import net.mcreator.techblocks.client.renderer.AmeRenderer;
@@ -26,5 +27,6 @@ public class TechblocksModEntityRenderers {
 		event.registerEntityRenderer(TechblocksModEntities.GHAST_CORROMPU, GhastCorrompuRenderer::new);
 		event.registerEntityRenderer(TechblocksModEntities.GHAST_CORROMPU_PROJECTILE, ThrownItemRenderer::new);
 		event.registerEntityRenderer(TechblocksModEntities.CREEPER_INFECTER, CreeperInfecterRenderer::new);
+		event.registerEntityRenderer(TechblocksModEntities.GOLEM, GolemRenderer::new);
 	}
 }

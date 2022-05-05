@@ -16,6 +16,6 @@
     "angularAcceleration": 0.0,
     "canCollide": true,
     "alwaysShow": false,
-    "renderType": "TRANSLUCENT"
+    "renderType": "OPAQUE"
   }
 }
