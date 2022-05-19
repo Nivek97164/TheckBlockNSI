@@ -404,14 +404,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "cristalkyber"
-    },
-    {
-      "name": "Golem",
-      "type": "livingentity",
-      "sortid": 48,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "golem"
     }
   ],
   "variable_elements": [],
