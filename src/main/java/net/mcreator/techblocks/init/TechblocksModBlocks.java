@@ -10,9 +10,6 @@ import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.techblocks.block.TechBlocksplatiniumeOreBlock;
-import net.mcreator.techblocks.block.RubisBlockBlock;
-import net.mcreator.techblocks.block.DimensioncorrupuPortalBlock;
 import net.mcreator.techblocks.block.CristalkyberoreBlock;
 import net.mcreator.techblocks.block.BlocdeChrysocolleBlock;
 

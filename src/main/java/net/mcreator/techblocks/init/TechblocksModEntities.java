@@ -14,7 +14,6 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
-import net.mcreator.techblocks.entity.GolemEntity;
 import net.mcreator.techblocks.entity.GhastCorrompuEntityProjectile;
 import net.mcreator.techblocks.entity.GhastCorrompuEntity;
 import net.mcreator.techblocks.entity.CreeperInfecterEntity;
@@ -48,9 +47,6 @@ public class TechblocksModEntities {
 	public static final EntityType<CreeperInfecterEntity> CREEPER_INFECTER = register("creeper_infecter",
 			EntityType.Builder.<CreeperInfecterEntity>of(CreeperInfecterEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CreeperInfecterEntity::new).sized(0.6f, 1.7f));
-	public static final EntityType<GolemEntity> GOLEM = register("golem",
-			EntityType.Builder.<GolemEntity>of(GolemEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
-					.setUpdateInterval(3).setCustomClientFactory(GolemEntity::new).sized(0.6f, 1.9000000000000001f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		EntityType<T> entityType = (EntityType<T>) entityTypeBuilder.build(registryname).setRegistryName(registryname);
@@ -70,7 +66,6 @@ public class TechblocksModEntities {
 			AmeEntity.init();
 			GhastCorrompuEntity.init();
 			CreeperInfecterEntity.init();
-			GolemEntity.init();
 		});
 	}
 
@@ -80,6 +75,5 @@ public class TechblocksModEntities {
 		event.put(AME, AmeEntity.createAttributes().build());
 		event.put(GHAST_CORROMPU, GhastCorrompuEntity.createAttributes().build());
 		event.put(CREEPER_INFECTER, CreeperInfecterEntity.createAttributes().build());
-		event.put(GOLEM, GolemEntity.createAttributes().build());
 	}
 }
