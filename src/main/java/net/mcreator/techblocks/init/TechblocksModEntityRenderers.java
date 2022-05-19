@@ -11,6 +11,11 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import net.mcreator.techblocks.client.renderer.GhastCorrompuRenderer;
+import net.mcreator.techblocks.client.renderer.CreeperInfecterRenderer;
+import net.mcreator.techblocks.client.renderer.AmeRenderer;
+import net.mcreator.techblocks.client.renderer.AiraignerInfecterRenderer;
+
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class TechblocksModEntityRenderers {
 	@SubscribeEvent
